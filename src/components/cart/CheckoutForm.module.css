@@ -6,7 +6,7 @@
 .control{
     display: flex;
     flex-direction: column;
-    margin: 5px;
+    /* margin: 5px; */
 }
 .control input{
     max-width: 14rem;
@@ -15,9 +15,9 @@
     border-radius: 2px;
     border: 2px solid rgb(211, 206, 206);
 }
-.city{
-    margin-bottom:150px;
-}
+/* .city{
+    margin-bottom:50px;
+} */
 .control label{
     font-weight: bold;
     font-size: small;
@@ -66,9 +66,12 @@
         font-size: x-small;
 
     }
-    .control{
-        margin: 2px;
+    .City{
+        margin-bottom:10rem;
     }
+    /* .control{
+        margin: 2px;
+    } */
     .control label{
         font-size: x-small;
     }

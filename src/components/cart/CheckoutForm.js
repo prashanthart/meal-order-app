@@ -71,7 +71,7 @@ function CheckOutForm(props) {
   }`;
   const cityControlStyles = `${styles.control} ${
     !formValidity.city ? styles.invalid : ""
-  } ${styles.city}`;
+  } ${styles.City}`;
 
   return (
     <form onSubmit={confirmHandler} className={styles.form}>
