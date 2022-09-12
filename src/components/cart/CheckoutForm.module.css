@@ -1,3 +1,4 @@
+
 .Form-wrapper{
     overflow-y: scroll;
     height: 13rem;
@@ -13,6 +14,9 @@
     outline-color: rgb(116, 116, 228);
     border-radius: 2px;
     border: 2px solid rgb(211, 206, 206);
+}
+.city{
+    margin-bottom:150px;
 }
 .control label{
     font-weight: bold;

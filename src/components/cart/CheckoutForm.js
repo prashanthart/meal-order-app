@@ -71,10 +71,10 @@ function CheckOutForm(props) {
   }`;
   const cityControlStyles = `${styles.control} ${
     !formValidity.city ? styles.invalid : ""
-  }`;
+  } ${styles.city}`;
 
   return (
-    <form onSubmit={confirmHandler}>
+    <form onSubmit={confirmHandler} className={styles.form}>
       <div className={styles["Form-wrapper"]}>
         <div className={nameControlStyles}>
           <label htmlFor="name">Your Name</label>
@@ -98,13 +98,14 @@ function CheckOutForm(props) {
           <input type="text" id="city" ref={cityInputRef} />
           {!formValidity.city && <small>City is required</small>}
         </div>
-        <div className={styles.buttons}>
+        
+      </div>
+      <div className={styles.buttons}>
           <button type="button" onClick={props.onCancel}>
             Cancel
           </button>
           <button>Confirm</button>
         </div>
-      </div>
     </form>
   );
 }
