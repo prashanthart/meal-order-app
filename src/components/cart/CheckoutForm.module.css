@@ -1,0 +1,53 @@
+.Form-wrapper{
+    overflow-y: scroll;
+    height: 13rem;
+}
+.control{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.control input{
+    max-width: 14rem;
+    height:1.7rem ;
+    outline-color: rgb(116, 116, 228);
+    border-radius: 2px;
+    border: 2px solid rgb(211, 206, 206);
+}
+.control label{
+    font-weight: bold;
+    font-size: small;
+}
+.buttons{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.buttons button{
+    border: none;
+
+    outline: none;
+     width: 100px;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 6px;
+    color:rgb(243, 85, 28);
+    background-color: white;
+    border:2px solid rgb(243, 85, 28);
+    font-weight: bold;
+
+}
+.buttons button:hover{
+    background-color: rgb(243, 85, 28);
+    color: white;
+}
+.invalid input{
+    border: 2px solid rgb(245, 89, 89);
+} 
+.invalid small{
+    margin: 0px;
+}
+.invalid label{
+    color: rgb(168, 34, 34);
+}

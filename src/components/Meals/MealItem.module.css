@@ -1,0 +1,25 @@
+.mealWrapper{
+    
+    padding: 5px 10px 5px 10px ;
+    margin: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mealWrapper h2{
+    margin: 0px;
+    font-size:20px;
+}
+.mealWrapper p{
+    margin: 0px;
+    color: rgb(80, 76, 76);
+}
+hr{
+    margin: 5px 10px 5px 10px;
+}
+.price{
+    /* color: rgb(241, 98, 46); */
+    color: rgb(243, 85, 28);
+    font-weight: bold;
+    font-size: large;
+}

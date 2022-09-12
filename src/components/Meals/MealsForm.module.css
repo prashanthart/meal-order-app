@@ -1,0 +1,16 @@
+.btn{
+    color:white;
+    background-color: rgb(243, 85, 28);
+    width:100px;
+    /* height: 1.5rem; */
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
