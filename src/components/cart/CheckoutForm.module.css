@@ -36,6 +36,9 @@
     background-color: white;
     border:2px solid rgb(243, 85, 28);
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .buttons button:hover{
@@ -50,4 +53,19 @@
 }
 .invalid label{
     color: rgb(168, 34, 34);
+}
+@media (max-width:320px){
+    .buttons button{
+        width: 60px;
+        font-size: small;
+        height: 10px;
+        font-size: x-small;
+
+    }
+    .control{
+        margin: 2px;
+    }
+    .control label{
+        font-size: x-small;
+    }
 }
