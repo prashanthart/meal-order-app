@@ -16,7 +16,7 @@
    left:5%;
    border-radius:8px;
    padding: 0.5rem;
-   animation: slide-down 1s ease-out forwards
+   animation: slide-down 1s ease-out forwards;
 }
 @media (min-width:768px){
     .modal{
