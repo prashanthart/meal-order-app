@@ -56,7 +56,7 @@
     background-color:  rgb(243, 85, 28);
     color: white;
 }
-@media (max-width:320px) {
+@media (max-width:360px) {
     .actions{
         float : none;
         width: 100%;

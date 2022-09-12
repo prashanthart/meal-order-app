@@ -54,7 +54,7 @@
 .invalid label{
     color: rgb(168, 34, 34);
 }
-@media (max-width:320px){
+@media (max-width:360px){
     .buttons button{
         width: 60px;
         font-size: small;
